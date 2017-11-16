@@ -17,10 +17,13 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 from recommend_templates.views import *
+from werobot.contrib.django import make_view
+from robot import robot
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     # url(r'^admin/', admin.site.urls),
+    url('^robot/',make_view(robot)),
     url(r'^index/$', index, name='index'),
     url(r'^news/$',news),
     url(r'^class_1/$', class_1), # 转到新闻类1
