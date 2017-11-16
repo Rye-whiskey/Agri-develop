@@ -51,8 +51,8 @@
       <file leaf-file-name="util.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recommend_templates/Main/paserManager/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="270" column="41" lean-forward="true" selection-start-line="270" selection-start-column="41" selection-end-line="270" selection-end-column="41" />
+            <state relative-caret-position="305">
+              <caret line="277" column="47" lean-forward="true" selection-start-line="277" selection-start-column="47" selection-end-line="277" selection-end-column="47" />
               <folding>
                 <element signature="e#16197#16214#0" expanded="false" />
               </folding>
@@ -963,8 +963,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recommend_templates/Main/paserManager/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="270" column="41" lean-forward="true" selection-start-line="270" selection-start-column="41" selection-end-line="270" selection-end-column="41" />
+        <state relative-caret-position="305">
+          <caret line="277" column="47" lean-forward="true" selection-start-line="277" selection-start-column="47" selection-end-line="277" selection-end-column="47" />
           <folding>
             <element signature="e#16197#16214#0" expanded="false" />
           </folding>
