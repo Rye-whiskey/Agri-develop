@@ -12,6 +12,8 @@ def hello(message):
     return "Hello"
 
 
+
+
 @robot.text
 def echo(message):
 
@@ -42,3 +44,6 @@ def echo(message):
 
     except Exception as e:
         print (e)
+robot.run()
+
+
