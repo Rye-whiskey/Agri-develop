@@ -6,6 +6,12 @@ robot=WeRoBot(enable_session=False,
               APP_ID='wxeab84a7432186503',
               APP_SECRET='f7cedb163c502a0fb43292d8cff1e431')
 
+
+@robot.handler
+def hello(message):
+    return "Hello"
+
+
 @robot.text
 def echo(message):
 
@@ -28,8 +34,8 @@ def echo(message):
         elif re.compile(".*？想你.*?").match(msg):
             return "我也想你"
         elif re.compile(".*?傻逼.*?").match(msg)or\
-            re.compile(".*?傻吊.*?").match(msg)or\
-            re.compile(".*?沙雕.*?").match(msg):
+              re.compile(".*?傻吊.*?").match(msg)or\
+              re.compile(".*?沙雕.*?").match(msg):
             return "我是你爸爸"
         elif re.compile(".*?天王盖地虎.*?").match(msg):
             return "小鸡炖蘑菇"
